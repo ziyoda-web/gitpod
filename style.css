@@ -1,0 +1,254 @@
+.wrapp{
+    width: 100%;
+    background: rgba(245, 243, 244, 1);
+    min-height: 100vh;
+}
+.card::after{
+    content: 'LOGIN';
+    color: #FFFFFF;
+    padding: 6px 22px;
+    font-size: 14px;
+    width: 88px;
+    border: none;
+    height: 32px;
+    border-radius: 12px;
+    background: #000;
+}
+.header h2{
+    font-family: 'Roboto';
+    max-width: 500px;
+    margin-top: 170px;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 88px;
+}
+.header p{
+    font-family: 'Roboto';
+    font-size: 23px;
+    max-width: 430px;
+    margin-top: 30px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(18, 16, 12, 0.7);
+}
+.btn{
+    margin-top: 45px;
+    width: 160px;
+    height: 46px;
+    border-radius: 16px;
+    background: rgba(255, 174, 51, 1);
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: center;
+    color: rgba(18, 16, 12, 1);   
+}
+.header-bttn p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin-top: 45px;
+    font-weight: 400;
+    color: rgba(18, 16, 12, 0.7);
+    line-height: 24px;
+}
+.project{
+    margin-top: 150px;
+    padding-bottom: 150px;
+}
+.project h2{
+    font-family: 'Roboto';
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 64px;
+}
+.project del{
+    font-family: 'Roboto';
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 64px;
+    color: rgba(153, 151, 149, 1);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.bttn{
+    width: 162px;
+    height: 32px;
+    border-radius: 10.5px;
+    background: rgba(255, 174, 51, 1);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #000;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    border: none;
+}
+.bttn:hover{
+    background: rgba(255, 176, 174, 1);
+    color: #fff;
+}
+.code h3{
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.code p{
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(18, 16, 12, 0.7);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+}
+.remot p{
+    max-width: 800px;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.used .col-3{
+    width: 384px;
+    height: 245px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+}
+.used .col-3 p{
+    font-family: 'Roboto';
+    color: rgba(18, 16, 12, 1);
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 24px;
+}
+.used .col-4{
+    width: 384px;
+    min-height: 270px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+}
+.used .col-4 p{
+    font-family: 'Roboto';
+    color: rgba(18, 16, 12, 1);
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 10px;
+}
+.used-text h3{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.used-text p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.started .col-5{
+    width: 642px;
+    min-height: 651px;
+    border-radius: 20px;
+    background:  rgba(255, 255, 255, 1);;
+}
+.started h3{
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.started p{
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 400;
+    max-width: 440px;
+    line-height: 32px;
+    color: rgba(18, 16, 12, 0.7);
+}
+.btt-button{
+    width: 262px;
+    height: 46px;
+    border-radius: 12px;
+    background: rgba(252, 109, 38, 1);
+    border: none;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+.btt-button p{
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 16px;
+}
+.btt-button:hover{
+    background: rgba(0, 0, 0, 1);
+}
+.button-gitpod{
+    width: 151px;
+    height: 31px;
+    border-radius: 12px;
+    background: rgba(255, 228, 188, 1);
+    border: none;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0 0 5px 0;
+    line-height: 32px;
+    color: rgba(18, 16, 12, 0.7);
+}
+.python{
+    width: 530px;
+    height: 56px;
+    border-radius: 12px;
+    background: rgba(249, 249, 249, 1);
+}
+.python-text p{
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.button-python{
+    width: 143px;
+    height: 32px;
+    background: rgba(18, 16, 12, 1);
+    border-radius: 12px;
+    border: none;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 16px;
+}
+.footer-links .text-decoration-none{
+    font-family: 'Roboto';
+    font-size: 13px;
+    color: rgba(18, 16, 12, 0.7);
+    line-height: 20px;
+    font-weight: 700;
+}
+.section{
+    width: 100%;
+    min-height: 48px;
+    background: rgba(236, 231, 229, 1);
+}
+@media (max-width: 576px){
+    .python{
+        width: 300px;
+        height: 100px;
+        display: flex;
+    }
+}
